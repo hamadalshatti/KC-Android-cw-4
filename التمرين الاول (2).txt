@@ -1,0 +1,34 @@
+public class Main
+{
+	
+	public static void main(String[] args) {
+//التمرين الاول
+	int a=totalGrade(10 , 9);
+	int b= tempo(10); 
+
+	 System.out.println(a);
+	 
+	     if(a>15){
+         System.out.println("CONGRATS you have passed");
+	 }else{
+	     System.out.println("you have failed the test better luck next time");
+	 }
+	 
+    if(b>=23){
+	     System.out.println("Hot");
+	      }else{
+	          System.out.println("cold");
+	          }
+ }
+	 
+    public static int  totalGrade(int num1, int num2){
+        
+    return(num1+num2);
+    }
+    //التمرين الثاني
+    public static int tempo(int num3){
+        
+    return(num3);
+    }
+
+}
